@@ -1,0 +1,52 @@
+﻿# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+ENV/
+env/
+
+# Build / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Tool caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local temporary folders
+.tmp/
+
+# Training artifacts (reproducible, usually large)
+#models/**
+models/transformer/checkpoints
+models/transformer/model.safetensors
+!models/.gitkeep
+reports/**
+!reports/.gitkeep
+data/processed/**
+!data/processed/.gitkeep
+
+# Streamlit local state
+.streamlit/
+
+# Environment files
+.env
+.env.*
